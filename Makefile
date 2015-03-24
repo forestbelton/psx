@@ -1,4 +1,4 @@
-psx: src/main.o src/cpu.o
+psx: src/main.o src/CPU.o
 	$(CXX) $< -o $@
 
 src/%.o: src/%.cpp
